@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Tickets & Audios - Explore World Attractions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background Bubbles -->
+    <div id="bubbles-container"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo"><i class="fas fa-globe-europe"></i> COSMIC</a>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#">TICKETS & AUDIOS</a></li>
+                    <li><a href="#">WORLD ATTRACTIONS</a></li>
+                    <li><a href="#">DISCOVER</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<!-- Hero Section -->
+<section class="hero">
+    <div class="video-background">
+        <video autoplay muted loop id="heroVideo">
+            <source src="2099568-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <div class="hero-content animate">
+            <h1>Experience World Attractions Like Never Before</h1>
+            <div class="scs-advantages">
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Skip-the-line access to top attractions</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Professional audio guides in 15+ languages</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>24/7 customer support for all your needs</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Best price guarantee - we'll match any lower price</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Flexible cancellation up to 24 hours before</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#" class="btn">Book Now & Save 15%</a>
+                <a href="#" class="btn btn-secondary">Watch Demo <i class="fas fa-play-circle"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Featured Destinations -->
+    <section class="featured-destinations">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>FEATURED DESTINATIONS</h2>
+                <p>Explore our handpicked selection of must-visit locations around the globe.</p>
+            </div>
+            <div class="destination-slider">
+                <div class="destination-card animate delay-1">
+                    <div class="destination-img">
+                        <img src="https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Paris">
+                    </div>
+                    <div class="destination-overlay">
+                        <h3>Paris, France</h3>
+                        <p>The city of lights, love, and world-class art and architecture.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card animate delay-2">
+                    <div class="destination-img">
+                        <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Tokyo">
+                    </div>
+                    <div class="destination-overlay">
+                        <h3>Tokyo, Japan</h3>
+                        <p>Where ancient traditions meet cutting-edge technology.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card animate delay-3">
+                    <div class="destination-img">
+                        <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="New York">
+                    </div>
+                    <div class="destination-overlay">
+                        <h3>New York, USA</h3>
+                        <p>The city that never sleeps, full of iconic landmarks.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card animate delay-1">
+                    <div class="destination-img">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80"
+                            alt="Rome">
+                    </div>
+                    <div class="destination-overlay">
+                        <h3>Rome, Italy</h3>
+                        <p>Eternal city with millennia of history at every corner.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets & Audios Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>TICKETS & AUDIOS</h2>
+                <p>Browse our bestselling and most popular tickets and audio guides for your next adventure.</p>
+            </div>
+            <div class="tickets-container">
+                <div class="ticket-card animate delay-1">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Burj Khalifa">
+                        <span class="bestseller">BESTSELLER</span>
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Burj Khalifa Audio Guide</h3>
+                        <p>Experience the world's tallest building with our immersive audio tour featuring architectural
+                            insights and panoramic views.</p>
+                        <div class="ticket-price">
+                            <span class="price">$19.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-2">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                            alt="Louvre Museum">
+                        <span class="bestseller">MOST POPULAR</span>
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Louvre Museum Tour</h3>
+                        <p>Skip-the-line tickets with expert audio commentary for the world's largest museum and its
+                            masterpieces.</p>
+                        <div class="ticket-price">
+                            <span class="price">$29.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-3">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1508050919630-b135583b29ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+                            alt="Colosseum">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Colosseum Guided Tour</h3>
+                        <p>Step back in time with our comprehensive audio guide to ancient Rome's most iconic
+                            amphitheater.</p>
+                        <div class="ticket-price">
+                            <span class="price">$24.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Attractions -->
+    <section class="section attractions">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Most Popular Attractions</h2>
+                <p>Discover the most visited attractions in these popular destinations.</p>
+            </div>
+            <div class="countries animate delay-1">
+                <div class="country active">France</div>
+                <div class="country">Germany</div>
+                <div class="country">Greece</div>
+                <div class="country">Italy</div>
+                <div class="country">Spain</div>
+            </div>
+            <div class="tickets-container">
+                <div class="ticket-card animate delay-1">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Eiffel Tower">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Eiffel Tower Tickets</h3>
+                        <p>Priority access to all floors of Paris's most iconic landmark with stunning city views.</p>
+                        <div class="ticket-price">
+                            <span class="price">$35.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-2">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1587330979470-3595ac045ab0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Neuschwanstein Castle">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Neuschwanstein Castle</h3>
+                        <p>Fairy-tale castle that inspired Disney with breathtaking Bavarian mountain views.</p>
+                        <div class="ticket-price">
+                            <span class="price">$27.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-3">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1538&q=80"
+                            alt="Santorini Sunset Cruise">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Santorini Sunset Cruise</h3>
+                        <p>Unforgettable sunset views with dinner and drinks included on a luxury catamaran.</p>
+                        <div class="ticket-price">
+                            <span class="price">$89.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all animate">
+                <a href="#" class="btn">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Tours Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>All Tours</h2>
+                <p>We offer a variety of tour experiences to suit every traveler's preferences.</p>
+            </div>
+            <div class="tour-types">
+                <div class="tour-type animate delay-1">
+                    <i class="fas fa-walking"></i>
+                    <h3>Walking Tours</h3>
+                    <p>Explore cities on foot with knowledgeable local guides who share hidden gems and local stories.
+                    </p>
+                </div>
+                <div class="tour-type animate delay-2">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Museum Tours</h3>
+                    <p>Skip-the-line access with expert audio commentary on the world's greatest art collections.</p>
+                </div>
+                <div class="tour-type animate delay-3">
+                    <i class="fas fa-ship"></i>
+                    <h3>Boat Tours</h3>
+                    <p>See cities from a different perspective on the water with scenic river or harbor cruises.</p>
+                </div>
+            </div>
+            <div class="tickets-container">
+                <div class="ticket-card animate delay-1">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                            alt="Audio Guides">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Audio Guides</h3>
+                        <p>Self-paced tours with professional narration, historical context, and insider tips.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-2">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                            alt="Tickets">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Tickets</h3>
+                        <p>Fast-track entry to the world's top attractions, museums, and landmarks.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-3">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Combo Packages">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Combo Packages</h3>
+                        <p>Save money with bundled tickets, audio guides, and transportation options.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>What Our Travelers Say</h2>
+                <p>Hear from our satisfied customers about their experiences with Cosmic.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card animate delay-1">
+                    <div class="testimonial-content">
+                        "The audio guide for the Louvre was incredible! It made the museum come alive with stories
+                        behind each masterpiece. The skip-the-line tickets saved us hours of waiting."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>New York, USA</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate delay-2">
+                    <div class="testimonial-content">
+                        "We used Cosmic for all our tours in Rome and Florence. The guides were knowledgeable and
+                        entertaining. The app made everything so easy to access and use on the go."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Toronto, Canada</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate delay-3">
+                    <div class="testimonial-content">
+                        "The Santorini sunset cruise was the highlight of our honeymoon! The crew was amazing, the food
+                        delicious, and the views breathtaking. Worth every penny!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>London, UK</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item animate delay-1">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Destinations</div>
+                </div>
+                <div class="stat-item animate delay-2">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-item animate delay-3">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Customer Support</div>
+                </div>
+                <div class="stat-item animate delay-1">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Positive Reviews</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other World Attractions -->
+    <section class="section other-attractions">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Other World Attractions</h2>
+                <p>Discover hidden gems and off-the-beaten-path experiences around the globe.</p>
+            </div>
+            <div class="tickets-container">
+                <div class="ticket-card animate delay-1">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80"
+                            alt="Machu Picchu">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Machu Picchu Tour</h3>
+                        <p>Explore the ancient Incan city with our comprehensive guide and breathtaking views.</p>
+                        <div class="ticket-price">
+                            <span class="price">$129.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-2">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Great Wall of China">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Great Wall of China</h3>
+                        <p>Walk along this ancient wonder with our audio guide revealing its fascinating history.</p>
+                        <div class="ticket-price">
+                            <span class="price">$59.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-3">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Taj Mahal">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Taj Mahal Tour</h3>
+                        <p>Experience the beauty and history of this architectural marvel at sunrise or sunset.</p>
+                        <div class="ticket-price">
+                            <span class="price">$39.99</span>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all animate">
+                <a href="#" class="btn">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs & Guides -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>BLOGS & GUIDES</h2>
+                <p>Get insider tips and travel inspiration from our expert guides.</p>
+            </div>
+            <div class="blogs-container">
+                <div class="blog-card animate delay-1">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1498855926480-d98e83099315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="On a Musical Trail">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date"><i class="far fa-calendar-alt"></i> May 23, 2025</div>
+                        <h3>On a Musical Trail With Vienna's Classical Masters</h3>
+                        <p>Discover the musical heritage of Vienna through the lives of Mozart, Beethoven and Strauss in
+                            this immersive audio tour.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card animate delay-2">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80"
+                            alt="Hidden Paris">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date"><i class="far fa-calendar-alt"></i> May 20, 2025</div>
+                        <h3>Hidden Paris: 10 Secret Spots Only Locals Know</h3>
+                        <p>Explore Paris beyond the tourist trail with these hidden gems, quaint cafes, and local
+                            favorites that most visitors miss.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card animate delay-3">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Food Tour">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date"><i class="far fa-calendar-alt"></i> May 15, 2025</div>
+                        <h3>A Food Lover's Guide to Bangkok Street Eats</h3>
+                        <p>Navigate Bangkok's vibrant street food scene like a pro with our essential tips on what to
+                            eat, where to find it, and how to order.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Know Your City -->
+    <section class="section city-guides">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>KNOW YOUR CITY</h2>
+                <p>Get news and information about your city's buildings, history and culture.</p>
+            </div>
+            <div class="tickets-container">
+                <div class="ticket-card animate delay-1">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80"
+                            alt="Paris">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Paris Architecture Guide</h3>
+                        <p>From medieval to modern, explore Paris through its iconic buildings and architectural marvels
+                            with our expert commentary.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-2">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="New York">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>New York Skyscrapers</h3>
+                        <p>The stories behind the city's most famous towers and their architects, from the Empire State
+                            to One World Trade Center.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-card animate delay-3">
+                    <div class="ticket-img">
+                        <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Tokyo">
+                    </div>
+                    <div class="ticket-info">
+                        <h3>Tokyo Neighborhood Guide</h3>
+                        <p>Discover the unique character of Tokyo's most fascinating districts, from high-tech Akihabara
+                            to traditional Asakusa.</p>
+                        <div class="ticket-price">
+                            <a href="#" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section class="download-app">
+        <div class="container">
+            <div class="app-container">
+                <div class="app-image animate-left">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="Cosmic App">
+                </div>
+                <div class="app-content animate-right">
+                    <h2>Download Our Mobile App</h2>
+                    <p>Access all your tickets, audio guides, and travel information in one place. Get real-time
+                        updates, offline access to content, and exclusive mobile-only deals.</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <div class="app-btn-text">
+                                <small>Download on the</small>
+                                <span>App Store</span>
+                            </div>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div class="app-btn-text">
+                                <small>Get it on</small>
+                                <span>Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="animate">Stay Updated With Cosmic</h2>
+            <p class="animate delay-1">Subscribe to our newsletter for exclusive deals, travel tips and destination
+                inspiration delivered to your inbox.</p>
+            <form class="newsletter-form animate delay-2">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>COSMIC</h3>
+                    <p>Your gateway to the world's most incredible attractions, museums and experiences. We make travel
+                        planning seamless and memorable.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>TICKETS & AUDIOS</h3>
+                    <ul>
+                        <li><a href="#">Museum Tickets</a></li>
+                        <li><a href="#">Audio Guides</a></li>
+                        <li><a href="#">Walking Tours</a></li>
+                        <li><a href="#">Boat Tours</a></li>
+                        <li><a href="#">Combo Packages</a></li>
+                        <li><a href="#">Private Tours</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>WORLD ATTRACTIONS</h3>
+                    <ul>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Asia</a></li>
+                        <li><a href="#">North America</a></li>
+                        <li><a href="#">South America</a></li>
+                        <li><a href="#">Africa</a></li>
+                        <li><a href="#">Oceania</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Become a Partner</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cosmic Tickets & Audios. All rights reserved. | <a href="#">Privacy Policy</a> | <a
+                        href="#">Terms of Service</a> | <a href="#">Cookie Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+   
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
